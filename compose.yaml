@@ -126,7 +126,6 @@ services:
   ## Add PHPMyAdmin for database management, uncomment to enable
   phpmyadmin:
     image: phpmyadmin
-    restart: always
     ports:
       - 8080:80
     environment:
