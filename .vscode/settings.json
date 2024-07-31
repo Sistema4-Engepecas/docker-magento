@@ -1,0 +1,10 @@
+{
+    "intelephense.environment.includePaths": [
+        "src/vendor/magento/framework",
+        "src/vendor/magento/module-*",
+        "src/vendor/phpunit/phpunit/src",
+        "src/generated/code",
+        "src/app/code"
+    ],
+    "intelephense.files.maxSize": 1000000
+}
